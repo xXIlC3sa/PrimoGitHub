@@ -1,0 +1,20 @@
+cd /cygdrive/c/Users/danie/OneDrive/Documenti/NetBeansProjects/PrimoGitHub
+git init
+git status (ci dirà che ancora non è stato aggiunto nessun file)
+git add * 
+git status (ci farà vedere tutti i file aggiunti sui quali poi fare il commit)
+git config user.name "xXIlC3sa"  
+git config user.email "danielecesarini13@gmail.com"  
+git commit -m "Primo commit" 
+git status (comprarirà nothing to commit)
+git remote add origin https://github.com/xXIlC3sa/PrimoGitHub.git (sincronizzo il git locale con il GitHub remoto)
+git push -u origin master
+git add src/primogithub/PrimoGitHub.java (aggiungo il file che ho modificato)
+git commit -m "Modifica print" 
+git push -u origin master
+git show head (mostra lo storico delle modifiche)
+git branch test (ho creato un ramo)
+git checkout test (mi sposto nel ramo test)
+git commit -m "Modifica test"
+git add src/primogithub/PrimoGitHub.java
+git push -u origin test
